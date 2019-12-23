@@ -114,7 +114,7 @@
 					this.$store.dispatch('change_in_theaters_more_sdata', res.data.subjects.slice(7, 15))
 				},
 				fail: (e) => {
-					this.errinfo = '发生错误可能是豆瓣API的问题/次数限制' + e.errMsg
+					this.errinfo = '发生错误可能是豆瓣API的问题/次数限制..等一下下或者刷新就好了'
 				},
 
 			});
